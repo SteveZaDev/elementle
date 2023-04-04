@@ -2653,7 +2653,8 @@ function showPeriodicTable(elNum, elSym){
 
   const elementSymbol = elSym;
   const elementName = elementInfo[elementSymbol]['name']
-  const elementCategory = elementInfo[elementSymbol]['category'] +  " Discovered by " +   elementInfo[elementSymbol]['discoverer'] + " in " + elementInfo[elementSymbol]['discdate']
+  const elementCategory = elementName + " is a(n) " +
+   elementInfo[elementSymbol]['category'] +  " Discovered by " +   elementInfo[elementSymbol]['discoverer'] + " in " + elementInfo[elementSymbol]['discdate']
  
 
 
